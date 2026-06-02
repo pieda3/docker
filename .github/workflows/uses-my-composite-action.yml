@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: pieda3\docker\my-composite-action@main #OWNER/REPONAME/ACTION_FOLDER@BRANCH_NAME #⬅️ Change this 
+        uses: pieda3/docker/my-composite-action@main #OWNER/REPONAME/ACTION_FOLDER@BRANCH_NAME #⬅️ Change this 
         with:
           who-to-greet: <ENTER_YOUR_NAME> #⬅️ Note
       - run: echo random-number "$RANDOM_NUMBER"
